@@ -1,0 +1,11 @@
+figcaption{display: none;}
+a, a:visited{text-decoration: none; color: black;} a:hover{text-decoration: none; color: black;}
+.menu-hide-mobile{display: none; position:absolute; height: 100vh; width: 300px; top:0; right: 0;}
+.link-menu a{margin-top: 2%;}
+.bt-menu{background: none!important; border: none!important;}
+.div-overflow::-webkit-scrollbar {display: none; max-width: 100%; }
+
+@media screen and (min-width: 700px) {
+    .div-overflow{justify-content: center!important;}
+
+}
